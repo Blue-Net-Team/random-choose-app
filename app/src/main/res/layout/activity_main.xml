@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <Button
+            android:id="@+id/setting_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/setting"
+            android:textSize="16sp"
+
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choice_1"
+            android:textSize="64sp" />
+
+        <Button
+            android:id="@+id/choice_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/choose"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/canteen_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="72dp"
+            android:textSize="30sp"
+            android:text="@string/class_bt1" />
+
+        <Button
+            android:id="@+id/food_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="72dp"
+            android:text="@string/class_bt2"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/random_num"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="72dp"
+            android:text="@string/class_bt3"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

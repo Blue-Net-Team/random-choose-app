@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">random choice</string>
+
+    <string name="choice_1">选择器</string>
+    <string name="choose">new choice</string>
+    <string name="class_bt1">饭堂</string>
+    <string name="class_bt2">菜品</string>
+    <string name="class_bt3">随机数</string>
+    <string name="setting">setting</string>
+</resources>
